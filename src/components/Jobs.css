@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Righteous&family=Roboto:wght@300;400&display=swap');
+
+
+.Jobs{
+    background-color: rgb(37, 37, 37);
+    margin: 0px;
+    border-top: 7px solid darkblue;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 7px solid darkblue;
+}
+.Jobs .JobsServices{
+    justify-content: center;
+    margin: 0px;
+}
+.Jobs .JobsServices h1{
+    font-size: 45px;
+    margin: 20px;
+    color: #fff;
+    font-family: 'Righteous', cursive;
+}
+.Jobs .JobRow{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+.Jobs .JobRow .JobCol{
+    justify-content: center;
+    background-color: #111;
+    margin: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 0px rgb(26, 26, 26);
+    height: 300px;
+    min-width: 200px;
+    width: 200px;
+    max-width: 210px;
+    overflow-y: hidden;
+}
+.Jobs .JobRow .JobCol:hover{
+    box-shadow: 0px 0px 20px 0px rgb(26, 26, 26);
+    cursor: pointer;
+}
+.Jobs .JobRow .JobCol img{
+    width: 120px;
+    height: 100px;
+}
+.Jobs .JobRow .JobCol h1{
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    color: blue;
+}
+.Jobs .JobRow .JobCol .JobAbout{
+    display: flex;
+    margin-right: 10px;
+}
+.Jobs .JobRow .JobCol .JobAbout .headerIcons{
+    color: blue;
+}
+.Jobs .JobRow .JobCol .JobAbout p{
+    color: rgb(177, 177, 177);
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 300;
+}

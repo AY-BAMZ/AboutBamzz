@@ -1,0 +1,90 @@
+.tabComponents{
+    background: #111;
+    margin: 0px;
+    padding: 0px;
+}
+.Tabs .tabComponents button{
+    padding: 8px 14px;
+    border-width: 0px;
+    background: #111;
+    color: #ddd;
+    font-size: 17px;
+    outline: none;
+}
+.Tabs .tabComponents button:hover{
+    border-bottom: 4px solid blue;
+    color: blue;
+}
+
+.Tabs .tabComponents button.active{
+    border-bottom: 4px solid blue;
+    color: blue;
+}
+.myActive{
+    background: #fff;
+}
+.searchFilter{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    background: #f3f3f3;
+    box-shadow: 0px 1px 3px #888;
+    align-items: center;
+}
+.searchFilter h3{
+    font-size: 18px;
+    color: orangered;
+    padding: 14px;
+    padding-left: 30px;
+}
+
+.searchFilter .filter1{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0px 10px;
+    box-shadow: 0px 4px 15px 1px rgb(175, 175, 175);
+}
+.searchFilter .filter2{
+    margin: 0px 10px;
+    cursor: pointer;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 1px rgb(175, 175, 175);
+}
+.searchFilter .filter3{
+    background: #fff;
+    margin: 0px 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px 12px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 1px rgb(175, 175, 175);
+}
+.searchFilter h4{
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px;
+}
+@media only screen and (max-width: 700px){
+    .searchFilter{
+        width: 100%;
+        display: flex;
+    }
+    .searchFilter h3{
+        font-size: 13px;
+    }
+    .searchFilter .filter1, .searchFilter .filter2, .searchFilter .filter3{
+        padding: 2px 5px;
+    }
+    .searchFilter .filter1 h4, .searchFilter .filter2 h4, .searchFilter .filter3 h4{
+        font-size: 13px;
+    }
+}

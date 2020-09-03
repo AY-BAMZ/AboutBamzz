@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@300;400&display=swap');
+
+
+.mobileSearch{
+    display: none;
+}
+.Welcome-section{
+    background: url('https://res.cloudinary.com/dmixz7eur/image/upload/v1598184844/sa_q6nsrl.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: 0%;
+}
+.WelcomeGreetings{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+.WelcomeDiv{
+    width: 100%;
+    margin: 100px 0px;
+}
+.WelcomeDiv h1{
+    font-family: 'Alata', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #ddd;
+    padding: 20px;
+    margin-top: 30px;
+}
+.WelcomeDiv h1 span{
+    color: blue;
+}
+
+.WelcomeDiv p{
+    font-size: 15px;
+    color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 20px;
+    padding-top: 0px;
+}
+.WelcomeDiv .WelcomeReadMore{
+    border-width: 0px;
+    background: blue;
+    box-shadow: 0px 0px 25px 0px black;
+    color: #ddd;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.WelcomeImage{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: url('https://res.cloudinary.com/dmixz7eur/image/upload/v1598348133/13011-removebg-preview_bjjxzd.png');
+    background-size: cover;
+    background-position-x: center;
+}
+.WelcomeImage img{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1000px){
+    .mobileSearch{
+        margin-top: 0px;
+        display: inline;
+    }
+    .mobileSearch .mobileInput{
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-width: 0px;
+        width: 260px;
+        background: #111;
+        box-shadow: 0px 0px 25px 0px black;
+        color: #f3f3f3;
+    }
+    .mobileSearch .mobileSearchButton{
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 12px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        background: blue;
+        color: #f3f3f3;
+        border-width: 0px;
+    }
+    .WelcomeDiv h1{
+        font-family: 'Alata', sans-serif;
+        font-size: 50px;
+        font-weight: 800;
+        color: #ddd;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .WelcomeDiv h1 span{
+        color: blue;
+    }
+    .WelcomeDiv p{
+        font-size: 15px;
+        color: #f3f3f3;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        line-height: 30px;
+        padding: 20px;
+        padding-top: 0px;
+    }
+    .WelcomeDiv .WelcomeReadMore{
+        border-width: 0px;
+        background: blue;
+        box-shadow: 0px 0px 25px 0px black;
+        color: #ddd;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px 30px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .WelcomeDiv{
+        margin: 10px 0px;
+    }
+    .WelcomeImage{
+        display: flex;
+    }
+}

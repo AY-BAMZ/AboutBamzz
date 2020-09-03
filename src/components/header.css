@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+.header-body{
+    margin: 0px;
+    justify-content: space-around;
+    display: flex;
+    background: rgb(43, 43, 43);
+    width: 100%;
+}
+.header-body .mainLinks{
+    display: flex;
+    margin: 10px;
+}
+.mainLinks .logo{
+    font-family: 'Fugaz One', cursive;
+    font-size: 29px;
+    margin: 0px;
+    color: #fff;
+}
+.mainLinks .logo span{
+    color: blue;
+}
+.mainLinks .Links{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+}
+.mainLinks .Links .subLinks{
+    font-size: 14px;
+    list-style: none;
+    color: #fff;
+    padding: 7px 15px;
+    margin-left: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px black;
+    border-radius: 14px;
+}
+
+.mainLinks .Links .subLinks:hover{
+    background: rgb(43, 43, 43);
+    color: blue;
+}
+.menu-toggle{
+    display: none;
+}
+.header-body .searchNotification{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-body .searchNotification .headerIcons{
+    font-size: 20px;
+    color: #888;
+    margin-left: 20px;
+    padding: 0px;
+}
+.searchIcons{
+    display: none;
+}
+.searchNotification .wordSearch{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.header-body .searchNotification input{
+    width: 230px;
+    padding: 7px;
+    border-width: 0px;
+    background: rgb(43, 43, 43);
+    border: 1px solid #888;
+    border-right: 0px;
+    box-shadow: 0px 0px 5px 1px black;
+}
+.header-body .searchNotification button{
+    padding: 7px;
+    border-width: 0px;
+    border: 1px solid #888;
+    border-left: 0px;
+    background: rgb(78, 78, 78);
+    box-shadow: 0px 0px 5px 1px black;
+}
+@media only screen and (max-width: 950px){
+    .wordSearch{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .header-body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mainLinks .Links{
+        display: none;
+    }
+    .menu-toggle{
+        display: flex;
+        max-height: 40px;
+    }
+    #dropdown-basic{
+        background: #111;
+        border-radius: 8px;
+        border-width: 0px;
+        box-shadow: 0px 0px 20px #000;
+        margin-right: 20px;
+        outline: none;
+    }
+    .menu-mobile{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .menu-mobile h2{
+        margin: 0px;
+        padding: 5px;
+        padding-right: 0px;
+        font-size: 17px;
+        color: #ddd;
+    }
+    .menu-mobile .menuIcons{
+        color: #ddd;
+        padding: 5px;
+        margin: 0px;
+    }
+    .dropdowns{
+        background: none;
+    } 
+    .mobile-menu-links{
+        display: block;
+        list-style: none;
+        color: #f3f3f3;
+        background: #111;
+        margin: 0px;
+        margin-right: -20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 0px #000;
+    }
+    .mobile-menu-links li{
+        text-align: right;
+        padding: 13px;
+    }
+    .headerIcons{
+        display: none;
+    }
+    .menuIcon{
+        color: #ddd;
+        padding-right: 10px;
+    }
+}
